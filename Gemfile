@@ -63,3 +63,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'alchemy_cms', '~> 5.0'
 gem 'alchemy-devise', '~> 4.6'
+gem "slim-rails"
