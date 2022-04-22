@@ -1,0 +1,59 @@
+
+= element_view_for(section_one, tag: false) do |el|
+  section.section.first-section
+    .container-fluid
+      .masonry-blog.clearfix
+        .first-slot
+          .masonry-box.post-media
+            = render_element section_one.nested_elements.first
+            .shadoweffect
+              .shadow-desc
+                .blog-meta
+                  span.bg-orange
+                    a[href="tech-category-01.html" title=""]
+                      | Technology
+                  h4
+                    a[href="tech-single.html" title=""]
+                      | Say hello to real handmade office furniture! Clean & beautiful design
+                  small
+                    a[href="tech-single.html" title=""]
+                      | 24 July, 2017
+                  small
+                    a[href="tech-author.html" title=""]
+                      | by Amanda
+        .second-slot
+          .masonry-box.post-media
+            = render_element section_one.nested_elements.second
+            .shadoweffect
+              .shadow-desc
+                .blog-meta
+                  span.bg-orange
+                    a[href="tech-category-01.html" title=""]
+                      | Gadgets
+                  h4
+                    a[href="tech-single.html" title=""]
+                      | Do not make mistakes when choosing web hosting
+                  small
+                    a[href="tech-single.html" title=""]
+                      | 03 July, 2017
+                  small
+                    a[href="tech-author.html" title=""]
+                      | by Jessica
+        .last-slot
+          .masonry-box.post-media
+            = render_element section_one.nested_elements.third
+            .shadoweffect
+              .shadow-desc
+                .blog-meta
+                  span.bg-orange
+                    a[href="tech-category-01.html" title=""]
+                      | Technology
+                  h4
+                    a[href="tech-single.html" title=""]
+                      | The most reliable Galaxy Note 8 images leaked
+                  small
+                    a[href="tech-single.html" title=""]
+                      | 01 July, 2017
+                  small
+                    a[href="tech-author.html" title=""]
+                      | by Jessica

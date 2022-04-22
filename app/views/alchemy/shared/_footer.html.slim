@@ -1,0 +1,89 @@
+footer.footer
+  .container
+    .row
+      .col-lg-7
+        .widget
+          .footer-text.text-left
+            a[href="index.html"]
+              = render_elements only: 'logo', from_page: 'footer'
+            p
+              | Tech Blog is a technology blog, we sharing marketing, news and gadget articles.
+            .social
+              a[href="#" data-toggle="tooltip" data-placement="bottom" title="Facebook"]
+                i.fa.fa-facebook
+              a[href="#" data-toggle="tooltip" data-placement="bottom" title="Twitter"]
+                i.fa.fa-twitter
+              a[href="#" data-toggle="tooltip" data-placement="bottom" title="Instagram"]
+                i.fa.fa-instagram
+              a[href="#" data-toggle="tooltip" data-placement="bottom" title="Google Plus"]
+                i.fa.fa-google-plus
+              a[href="#" data-toggle="tooltip" data-placement="bottom" title="Pinterest"]
+                i.fa.fa-pinterest
+            hr.invis
+            .newsletter-widget.text-left
+              form.form-inline
+                input.form-control[type="text" placeholder="Enter your email address"]
+                button.btn.btn-primary[type="submit"]
+                  | SUBMIT
+      .col-lg-3.col-md-12.col-sm-12.col-xs-12
+        .widget
+          h2.widget-title
+            | Popular Categories
+          .link-widget
+            ul
+              li
+                a[href="#"]
+                  | Marketing 
+                  span
+                    | (21)
+              li
+                a[href="#"]
+                  | SEO Service 
+                  span
+                    | (15)
+              li
+                a[href="#"]
+                  | Digital Agency 
+                  span
+                    | (31)
+              li
+                a[href="#"]
+                  | Make Money 
+                  span
+                    | (22)
+              li
+                a[href="#"]
+                  | Blogging 
+                  span
+                    | (66)
+      .col-lg-2.col-md-12.col-sm-12.col-xs-12
+        .widget
+          h2.widget-title
+            | Copyrights
+          .link-widget
+            ul
+              li
+                a[href="#"]
+                  | About us
+              li
+                a[href="#"]
+                  | Advertising
+              li
+                a[href="#"]
+                  | Write for us
+              li
+                a[href="#"]
+                  | Trademark
+              li
+                a[href="#"]
+                  | License & Help
+    .row
+      .col-md-12.text-center
+        br
+        .copyright
+          | © Tech Blog. Design: 
+          a[href="http://html.design"]
+            | HTML Design
+          | .
+.dmtop
+  | Scroll to Top

@@ -1,0 +1,8 @@
+.wrapper
+  = render 'alchemy/shared/header'
+
+  - cache(home) do
+    .row
+      = render_elements only: 'section_one'
+
+  = render 'alchemy/shared/footer'

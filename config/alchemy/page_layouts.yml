@@ -1,8 +1,18 @@
 # == This file defines the page layouts for new pages.
 #
 # For further information please see http://guides.alchemy-cms.com/stable/page_layouts.html
-
-- name: index
+- name: home
   unique: true
-  elements: [article]
-  autogenerate: [article]
+  elements: 
+  - section_one
+
+# Global pages
+- name: header
+  unique: true
+  layoutpage: true
+  elements: [logo, tech_menu_one]
+
+- name: footer
+  layoutpage: true
+  unique: true
+  elements: [logo]
