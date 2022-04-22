@@ -1,0 +1,133 @@
+
+/* PAGES 
+**************************************/
+
+.notfound h2 {
+  font-family: Comic Sans MS;
+  font-size: 140px;
+  padding: 0 0 1.7rem;
+  margin: 0;
+  line-height: 1;
+  font-weight: bold;
+}
+
+.notfound h3 {
+  font-size: 40px;
+  padding: 0 0 0.6rem;
+  margin: 0;
+}
+
+.notfound p {
+  padding: 1rem 0 1.4rem;
+  margin-bottom: 0;
+}
+
+.sitemap-wrapper {
+  margin-bottom: 2rem;
+  position: relative;
+  border: 1px dashed #dadada;
+  padding: 2rem;
+}
+
+.sitemap-wrapper .year {
+  position: absolute;
+  padding: 0 1rem;
+  background-color: #ffffff;
+  top: -12px;
+}
+
+.sitemap-text {
+  margin: 1rem 0;
+  font-weight: 500;
+}
+
+.sitemap-wrapper small {
+  display: block;
+  font-size: 11px;
+  padding: 0;
+  margin: 0 0 0.5rem;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.breadcrumb {
+  background-color: transparent;
+  border-radius: 0;
+  list-style: outside none none;
+  margin-bottom: 0;
+  text-align: right;
+  padding: 0;
+}
+
+.breadcrumb-item {
+  float: none;
+  font-size: 12px;
+  display: inline-block;
+}
+
+.page-link {
+  background-color: #edeff2 !important;
+  border: 0 dashed #e2e2e2;
+  border-radius: 0;
+  color: #a3a5a8 !important;
+  display: block;
+  font-size: 14px;
+  line-height: 1;
+  margin-left: 6px;
+  padding: 0.8rem 0.8rem;
+  position: relative;
+  text-transform: capitalize;
+}
+
+.page-link:hover,
+.page-link:focus {
+  color: #111 !important;
+}
+
+.page-item:first-child .page-link {
+  margin-left: 0;
+  border-radius: 0;
+}
+
+.page-item:last-child .page-link {
+  border-radius: 0;
+}
+
+.page-title {
+  padding: 3rem 0;
+  background-color: #edeff2;
+}
+
+.page-title small {
+  color: #a3a5a8;
+  display: inline-block;
+  font-size: 13px;
+  font-style: italic;
+  letter-spacing: 1px;
+  line-height: 1;
+  margin-bottom: 0;
+  margin-top: -1px;
+  padding-bottom: 0;
+  padding-left: 0.5rem;
+  vertical-align: middle;
+}
+
+.page-title i {
+  border-radius: 40px;
+  display: inline-block;
+  font-size: 14px;
+  height: 40px;
+  line-height: 40px;
+  margin-right: 0.3rem;
+  margin-top: -0.4rem;
+  text-align: center;
+  vertical-align: middle;
+  width: 40px;
+}
+
+.page-title h2 {
+  font-size: 24px;
+  line-height: 1;
+  padding: 0;
+  margin: 0;
+}
