@@ -1,0 +1,113 @@
+
+/* FOOTER
+**************************************/
+
+.footer .widget-title {
+  display: table;
+  font-size: 18px;
+  line-height: 1;
+  margin: 0 0 2rem;
+  padding: 0 0 0.5rem;
+}
+
+.footer {
+  padding: 4rem 0 4rem;
+  background: black repeat-x center bottom #edeff2;
+}
+
+.footer.wb {
+  background-color: #ffffff;
+}
+
+.footer.wb .hovereffect {
+  opacity: 0.1;
+  background-color: red;
+}
+
+.demos h4 a {
+  color: #000000 !important;
+  font-size: 21px;
+}
+
+.demos .btn {
+  padding: 0.6rem 1.5rem;
+}
+
+.demos p {
+  padding: 0 0 1.5rem;
+  margin: 0;
+}
+
+.section.demos {
+  background-color: #ffffff;
+}
+
+.demos .col-lg-10 .row {
+  padding: 2.5rem 1.5rem !important;
+  background-color: #ffffff;
+  border: 1px dashed #e2e2e2;
+}
+
+.demos .invis1 {
+  margin: 2rem 0;
+}
+
+.footer ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.footer ul li {
+  margin-bottom: 0.3rem;
+}
+
+.footer ul li:last-child {
+  margin-bottom: 0;
+}
+
+.footer .fa-star {
+  font-size: 12px;
+}
+
+.footer h5,
+.footer ul li a {
+  color: #111111;
+}
+
+.demos .blog-meta h4 {
+  font-size: 28px;
+  padding: 0 0 1rem;
+}
+
+.footer a,
+.footer p,
+.blog-list-widget small {
+  color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.footer-text .fa {
+  font-size: 21px;
+  margin: 0 0.3rem;
+}
+
+.dmtop {
+  background-color: #111111;
+  /* background-image: url(images/arrow.png); */
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  z-index: 9999;
+  width: 40px;
+  height: 40px;
+  text-indent: -99999px;
+  position: fixed;
+  bottom: -100px;
+  right: 25px;
+  cursor: pointer;
+  -webkit-transition: all .7s ease-in-out;
+  -moz-transition: all .7s ease-in-out;
+  -o-transition: all .7s ease-in-out;
+  -ms-transition: all .7s ease-in-out;
+  transition: all .7s ease-in-out;
+  overflow: auto;
+}
